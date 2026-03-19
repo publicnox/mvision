@@ -18,6 +18,7 @@ def detect_objects_in_image(image_path, top_k=5):
         или None в случае ошибки загрузки/обработки изображения
     """
     try:
+        # 123123123
         # 1. Ленивая загрузка модели детектора
         if not hasattr(detect_objects_in_image, 'model'):
             print("Загрузка модели MobileNetV2 для детекции...")
